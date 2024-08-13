@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7AFC56F2C6BA83E006FC710 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AFC56E2C6BA83E006FC710 /* LocationsView.swift */; };
+		D7AFC5712C6BB0B9006FC710 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AFC5702C6BB0B9006FC710 /* LocationsViewModel.swift */; };
 		D7DCCA0F2C6A1B9D001FAC08 /* TourMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCCA0E2C6A1B9D001FAC08 /* TourMapApp.swift */; };
 		D7DCCA112C6A1B9D001FAC08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCCA102C6A1B9D001FAC08 /* ContentView.swift */; };
 		D7DCCA162C6A1B9F001FAC08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DCCA152C6A1B9F001FAC08 /* Preview Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7AFC56E2C6BA83E006FC710 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		D7AFC5702C6BB0B9006FC710 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		D7DCCA0B2C6A1B9D001FAC08 /* TourMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DCCA0E2C6A1B9D001FAC08 /* TourMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourMapApp.swift; sourceTree = "<group>"; };
 		D7DCCA102C6A1B9D001FAC08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		D7DCCA1F2C6A1D0A001FAC08 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D7AFC56E2C6BA83E006FC710 /* LocationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		D7DCCA202C6A1D12001FAC08 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D7AFC5702C6BB0B9006FC710 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DCCA252C6A1FBC001FAC08 /* LocationsDataService.swift in Sources */,
+				D7AFC5712C6BB0B9006FC710 /* LocationsViewModel.swift in Sources */,
 				D7DCCA112C6A1B9D001FAC08 /* ContentView.swift in Sources */,
+				D7AFC56F2C6BA83E006FC710 /* LocationsView.swift in Sources */,
 				D7DCCA222C6A1DF9001FAC08 /* Location.swift in Sources */,
 				D7DCCA0F2C6A1B9D001FAC08 /* TourMapApp.swift in Sources */,
 			);
