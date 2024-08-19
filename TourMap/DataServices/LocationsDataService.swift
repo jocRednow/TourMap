@@ -12,6 +12,26 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
+            name: "Ducal Castle",
+            cityName: "Szczecin",
+            coordinates: CLLocationCoordinate2D(latitude: 53.426111, longitude: 14.560278),
+            description: "The Ducal Castle, also known as the Pomeranian Dukes' Castle,[a] and Szczecin Castle,[b] is a renaissance castle in the city of Szczecin, Poland, located at the Castle Hill in the Stare Miasto (Old Town) neighbourhood, near the Oder river. It is built in the gothic and Pomeranian mannerism architectural style. The castle was the seat of the dukes of Pomerania-Stettin of the House of Pomerania, who ruled the Duchy of Pomerania from 1121 to 1637. The building history originates in 1346, when Duke Barnim III began the construction of the ducal housing complex, and continues to 1428, when, under the rule of Casimir V, it was expanded, forming the castle. Currently, it is one of the largest cultural centres in the West Pomeranian Voivodeship, Poland.",
+            imageNames: [
+                "szczecin-ducalcastle-1",
+                "szczecin-ducalcastle-2",
+            ],
+            link: "https://en.wikipedia.org/wiki/Ducal_Castle,_Szczecin"),
+        Location(
+            name: "Old Town",
+            cityName: "Poznan",
+            coordinates: CLLocationCoordinate2D(latitude: 52.408333, longitude: 16.934444),
+            description: "Poznań Old Town is the centermost neighbourhood of the city of Poznań in western Poland, covering the area of the once walled medieval city of Poznań. It is called Stare Miasto in Polish, although that name may also refer to the wider administrative district of Stare Miasto, which extends to most of the city centre and northern parts of the city.",
+            imageNames: [
+                "poznan-oldtown-1",
+                "poznan-oldtown-2",
+            ],
+            link: "https://en.wikipedia.org/wiki/Poznan_Old_Town"),
+        Location(
             name: "Colosseum",
             cityName: "Rome",
             coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
