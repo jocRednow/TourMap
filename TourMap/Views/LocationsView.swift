@@ -12,6 +12,7 @@ struct LocationsView: View {
     
     // MARK: STATEMENTS
     @EnvironmentObject private var vm: LocationsViewModel
+    @State var maxWithForIpad: CGFloat = 700
     
     var body: some View {
         ZStack {
@@ -20,6 +21,7 @@ struct LocationsView: View {
             
             VStack(spacing: 0) {
                 header
+                    .frame(maxWidth: maxWithForIpad)
                     .padding()
                 Spacer()
                 locationPreviewStack
@@ -93,7 +95,11 @@ extension LocationsView {
                     LocationPreviewView(location: location)
                         .shadow(color: Color.black.opacity(0.3), radius: 20)
                         .padding()
-                        .transition(.move(edge: .leading))
+                        .frame(maxWidth: maxWithForIpad)
+                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                        .transition(.asymmetric(
+                            insertion: .move(edge: .trailing),
+                            removal: .move(edge: .leading)))
                 }
             }
         }
